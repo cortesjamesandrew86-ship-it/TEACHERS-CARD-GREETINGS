@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101b2b" />
+  <meta name="description" content="A personalized animated Teachers' Day greeting card." />
+  <title>Happy Teachers' Day, Sir Randy!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="sparkle-field" aria-hidden="true"></div>
+  <div class="fire-cursor" aria-hidden="true"><span></span></div>
+
+  <main class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Greeting card home"><span class="brand-mark">✦</span> A little appreciation</a>
+      <span class="top-note"><span class="status-dot"></span> Made with gratitude</span>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow"><span></span> A message from the heart <span></span></p>
+      <h1 id="page-title">Happy Teachers’ Day<span class="title-period">.</span></h1>
+      <p class="intro-copy">For the patience, wisdom, and encouragement that make a lasting difference.</p>
+    </section>
+
+    <section class="card-stage" aria-label="Interactive greeting card">
+      <div class="book-shadow"></div>
+      <div class="greeting-book" id="greetingBook">
+        <div class="book-back"></div>
+        <div class="book-pages">
+          <div class="inside-left">
+            <div class="inside-decoration">✧</div>
+            <p class="small-label">With sincere appreciation</p>
+            <div class="line-art">❧</div>
+            <p class="left-quote">“A good teacher leaves a little light in every life they touch.”</p>
+            <span class="page-number">01</span>
+          </div>
+          <div class="inside-right">
+            <div class="message-topline"><span>THANK YOU</span><i></i><span>TEACHER</span></div>
+            <h2>Dear Sir <em>Randy Bello,</em></h2>
+            <p id="typedMessage" class="typed-message"></p><span class="typing-caret" id="typingCaret"></span>
+            <div class="signature"><span>With gratitude,</span><strong>Your student</strong></div>
+            <div class="corner-flower">✿</div>
+            <span class="page-number">02</span>
+          </div>
+        </div>
+        <button class="cover" id="coverButton" type="button" aria-label="Open the greeting card">
+          <div class="cover-grain"></div>
+          <div class="cover-inner">
+            <div class="cover-emblem"><span>✦</span></div>
+            <p class="cover-kicker">A note of gratitude</p>
+            <h2>Happy<br><em>Teachers’</em><br>Day</h2>
+            <div class="cover-rule"><span></span> ✧ <span></span></div>
+            <p class="cover-name">For Sir Randy Bello</p>
+            <div class="cover-bottom">OPEN WITH CARE <span>↗</span></div>
+          </div>
+        </button>
+        <div class="spine"></div>
+      </div>
+      <p class="tap-hint"><span class="tap-icon">↗</span> Click the cover to open your message</p>
+    </section>
+
+    <section class="teacher-profile" aria-label="Teacher portrait">
+      <div class="portrait-frame">
+        <div class="portrait-glow"></div>
+        <img src="assets/randy-bello.jpg" alt="Portrait included in the Teachers’ Day greeting" />
+        <span class="portrait-spark portrait-spark-one">✦</span>
+        <span class="portrait-spark portrait-spark-two">✧</span>
+      </div>
+      <div class="profile-copy">
+        <p class="eyebrow left-eyebrow">A teacher who makes a difference</p>
+        <h3>Thank you, <span>Sir Randy.</span></h3>
+        <p>Your dedication, guidance, and kindness are appreciated more than words can say. Today is a small way to celebrate the big impact you make.</p>
+        <div class="profile-signoff"><span class="signoff-line"></span><span>Happy Teachers’ Day</span></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Crafted with respect and appreciation</span>
+      <span class="footer-star">✦</span>
+      <span>For a truly inspiring teacher</span>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
